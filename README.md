@@ -24,6 +24,6 @@ To run tests run to see how much code is covered with tests run `flutter test --
 
 To see the test coverage reports, after running the coverage command open  `coverage/html/index.html` in your browser it will show this result
 
-74.2 % of code written in this project is coveered with test cases.
+### 74.2 % of code written in this project is covered with test cases.
 
-![Test results](Screenshot 2021-03-30 at 3.59.56 PM.png)
+![Test results](https://github.com/nimi0112/Fetch-Foods/blob/main/Screenshot%202021-03-30%20at%203.59.56%20PM.png)
