@@ -1,0 +1,42 @@
+name: quovantis_assignment
+description: A new Flutter project.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^3.0.0 #for making architecture testable
+  meta: ^1.1.6 #Annotations for Static Analysis
+  equatable: ^1.0.0 #compare objects
+  dio: ^3.0.9  #api calls
+  simple_animations: ^2.2.1
+  rxdart: ^0.23.0
+  shared_preferences: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+  test_coverage: ^0.5.0
+  bloc_test: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
